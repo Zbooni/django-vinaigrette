@@ -9,7 +9,7 @@ from django.utils.translation import gettext, pgettext
 from .middleware import VinaigretteAdminLanguageMiddleware as VinaigrettteAdminLanguageMiddleware
 
 VERSION = "1.1.1"
-DOUBLE_PERCENTAGE_RE = re.compile(u'%(?!\()')
+DOUBLE_PERCENTAGE_RE = re.compile(r'%(?!\()')
 
 _REGISTRY = {}
 
